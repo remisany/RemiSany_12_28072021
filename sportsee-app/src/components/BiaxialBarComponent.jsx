@@ -1,10 +1,10 @@
 //React
-import React from 'react'
-import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip} from 'recharts'
+import React from "react"
+import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip} from "recharts"
 import styled from "styled-components"
 
-//Utils
-import colors from '../styles/colors'
+//Utilss
+import colors from "../styles/colors"
 
 const ContainerTooltip = styled.div`
     background-color: ${colors.graphRed};
@@ -19,7 +19,7 @@ const ContainerTooltip = styled.div`
     }
 `
 
-const ContainerGraph= styled.div`
+const ContainerBar = styled.div`
     background-color: ${colors.backgroundLightGrey};
     border-radius: .5rem;
     display: flex;
@@ -89,10 +89,10 @@ const CustomTooltip = ({active, payload}) => {
 class BiaxialBarComponent extends React.Component {
   render() {
 
-    const {session} = this.props
+    const {sessions} = this.props.activity
 
     return (
-        <ContainerGraph>
+        <ContainerBar>
             <Title>
                 <h2>Activité quotidienne</h2>
                 <Legend>
@@ -109,7 +109,7 @@ class BiaxialBarComponent extends React.Component {
             <BarChart
                 width = {785}
                 height = {206}
-                data = {session}
+                data = {sessions}
             >
                 <CartesianGrid vertical = {false} strokeDasharray = "4 2"/>
                 <XAxis 
@@ -143,7 +143,7 @@ class BiaxialBarComponent extends React.Component {
                     fill = {colors.graphRed}
                 />
             </BarChart>
-        </ContainerGraph>
+        </ContainerBar>
     );
   }
 }

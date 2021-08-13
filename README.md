@@ -50,8 +50,6 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 - [Recharts](https://recharts.org/en-US) v2.0.10
 - [Styled-components](https://styled-components.com/) v5.3.0
 
-- Recommended text editor: [Visual Studio Code](https://code.visualstudio.com/)
-
 #### Installation Dependencies
 
 - You need [Git](https://git-scm.com/) to clone the repository
@@ -78,7 +76,7 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 
 - Run the project (port 3000 by default):
 
-`npm start`
+`npm start` or
 `yarn start`
 
 - The 2 URL available (for the 2 users) are:
@@ -87,11 +85,9 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 
 ### BACKEND
 - Backend using [Node.js](https://nodejs.org/en/).
-- To get the backend API, fork this repo and follow the instructions :
-
-[Backend](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard)
+- To get the [backend API](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard), fork this repo and follow the instructions.
 
 ## Further information
 
-- Project build with [Create React App][Create React App](https://github.com/facebook/create-react-app).
-- Is possible to run project with npm or yarn.
+- Project build with [Create React App](https://github.com/facebook/create-react-app).
+- Is possible to run the project with npm or yarn.

@@ -1,34 +1,42 @@
 # RemiSany_12_28072021
 
+1. [Cahier des charges](#CAHIER-DES-CHARGES)
+2. Installation steps and prerequisites (english).
+
+***
+
 ## CAHIER DES CHARGES
-    ### Projet 12 "Développez un tableau de bord d'analytics avec React."
 
-    #### CONTEXTE
+### Projet 12 "Développez un tableau de bord d'analytics avec React."
 
-    ##### Développer une page de profil pour une application sportive avec React :
+#### CONTEXTE
 
-    ##### Contraintes :
-    - Respecter les users stories : https://www.notion.so/Tableau-de-bord-SportSee-6686aa4b5f44417881a4884c9af5669e.
-    - Utiliser D3 ou Recharts pour intégrer les graphiques.
-    - Développer uniquement pour Desktop (minimum 1024x780px).
-    - Réaliser des calls HTTP sur le backend.
-    - Réaliser les calls avec Fetch ou Axios.
-    - Réaliser les calls en dehors des composants Reacts
-    - Rédiger la documention en anglais
-    - Documenter chaque fonction et méthode.
+##### Développer une page de profil pour une application sportive avec React :
 
-    #### TECHNOLOGIES UTILISÉES
-    - HTML5.
-    - CSS3.
-    - Javascript.
-    - ESLinter.
-    - Prettier.
-    - React.
-    - React Router.
-    - Recharts
-    - Create React App.
-    - Visual Studio Code.
+##### Contraintes :
+- Respecter les users stories : https://www.notion.so/Tableau-de-bord-SportSee-6686aa4b5f44417881a4884c9af5669e.
+- Utiliser D3 ou Recharts pour intégrer les graphiques.
+- Développer uniquement pour Desktop (minimum 1024x780px).
+- Réaliser des calls HTTP sur le backend.
+- Réaliser les calls avec Fetch ou Axios.
+- Réaliser les calls en dehors des composants Reacts.
+- Rédiger la documention en anglais (voir 2.).
+- Documenter chaque fonction et méthode.
 
-    Projet validé le X août 2021.
+#### TECHNOLOGIES UTILISÉES
+- HTML5.
+- CSS3.
+- Javascript.
+- ESLinter.
+- Prettier.
+- React.
+- React Router.
+- Recharts.
+- Create React App.
+- Visual Studio Code.
 
-##
+Projet validé le X août 2021.
+
+***
+
+## INSTALLATION STEPS AND PREREQUISITES

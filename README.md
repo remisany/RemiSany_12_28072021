@@ -85,7 +85,7 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 
 ### BACKEND
 - Backend using [Node.js](https://nodejs.org/en/).
-- To get the [backend API](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard), fork this repo and follow the instructions.
+- To get the backend API, fork [this repository](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard) and follow the instructions.
 
 ## Further information
 

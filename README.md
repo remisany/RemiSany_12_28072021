@@ -1,7 +1,7 @@
 # RemiSany_12_28072021
 
-1. [Cahier des charges](#CAHIER-DES-CHARGES)
-2. Installation steps and prerequisites (english).
+1. [Cahier des charges (fr)](#CAHIER-DES-CHARGES)
+2. [Installation steps and prerequisites (en)](#INSTALLATION-STEPS-AND-PREREQUISITES)
 
 ***
 
@@ -14,7 +14,7 @@
 ##### Développer une page de profil pour une application sportive avec React :
 
 ##### Contraintes :
-- Respecter les users stories : https://www.notion.so/Tableau-de-bord-SportSee-6686aa4b5f44417881a4884c9af5669e.
+- Respecter les [users stories](https://www.notion.so/Tableau-de-bord-SportSee-6686aa4b5f44417881a4884c9af5669e).
 - Utiliser D3 ou Recharts pour intégrer les graphiques.
 - Développer uniquement pour Desktop (minimum 1024x780px).
 - Réaliser des calls HTTP sur le backend.

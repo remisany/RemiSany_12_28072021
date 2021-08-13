@@ -23,6 +23,12 @@ const Name = styled.span`
     color: ${colors.fontRed};
 `
 
+/**
+* @param {Object} props - Props
+* @param {string} props - Firstname of the user (name)
+* @returns {Component} - Header with name of the user and tagline 
+*/
+
 class Header extends React.Component {
     render() { 
         

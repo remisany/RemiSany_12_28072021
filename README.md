@@ -74,14 +74,14 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 
 #### Running
 
-- Run the project (port 3000 by default):
+- Run the project (port 3001 by default):
 
 `npm start` or
 `yarn start`
 
 - The 2 URL available (for the 2 users) are:
-  - `http://localhost:3000/12`
-  - `http://localhost:3000/18`
+  - `http://localhost:3001/12`
+  - `http://localhost:3001/18`
 
 ### BACKEND
 - Backend using [Node.js](https://nodejs.org/en/).

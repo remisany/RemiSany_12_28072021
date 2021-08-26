@@ -2,6 +2,7 @@
 import React from "react"
 import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip} from "recharts"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utilss
 import colors from "../styles/colors"
@@ -121,7 +122,8 @@ const formatXAxis = (tickItem) => {
 class BiaxialBarComponent extends React.Component {
   render() {
 
-    const {sessions} = this.props.activity
+    const {activity} = this.props
+    const sessions = activity.sessions
 
     return (
         <ContainerBar>
@@ -193,6 +195,18 @@ class BiaxialBarComponent extends React.Component {
         </ContainerBar>
     )
   }
+}
+
+BiaxialBarComponent.propTypes = {
+    activity: PropTypes.object
+}
+
+BiaxialBarComponent.defaultProps = {
+    activity : {
+        sessions: [
+            {day: "", kilogram: NaN, calories: NaN}
+        ]
+    }
 }
 
 export default BiaxialBarComponent

@@ -2,6 +2,7 @@
 import React from "react"
 import {Line, LineChart, Tooltip, XAxis, YAxis} from "recharts"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utils
 import colors from "../styles/colors"
@@ -152,6 +153,16 @@ class LineComponent extends React.Component {
       </ContainerLine>
     )
   }
+}
+
+LineComponent.propTypes = {
+  average: PropTypes.array
+}
+
+LineComponent.defaultProps = {
+  average: [
+    {day: 0, sessionLength: NaN},
+  ]
 }
 
 export default LineComponent

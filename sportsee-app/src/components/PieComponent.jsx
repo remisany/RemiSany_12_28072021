@@ -2,6 +2,7 @@
 import React from "react"
 import {PieChart, Pie, Cell} from "recharts"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utils
 import colors from "../styles/colors"
@@ -87,6 +88,16 @@ class PieComponent extends React.Component {
         </PieInfo>
       </ContainerPie>
     );
+  }
+}
+
+PieComponent.propTypes = {
+  user: PropTypes.object
+}
+
+PieComponent.defaultProps = {
+  user : {
+    todayScore: NaN
   }
 }
 

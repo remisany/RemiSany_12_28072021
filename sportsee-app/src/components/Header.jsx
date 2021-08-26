@@ -1,6 +1,7 @@
 //React
 import React from "react"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utils
 import colors from "../styles/colors"
@@ -41,6 +42,14 @@ class Header extends React.Component {
             </Title>
         )
     }
+}
+
+Header.propTypes = {
+    name: PropTypes.string
+}
+
+Header.defaultProps = {
+    name: ""
 }
 
 export default Header

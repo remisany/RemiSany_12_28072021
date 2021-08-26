@@ -2,6 +2,7 @@
 import React from "react"
 import {Radar, RadarChart, PolarGrid, PolarAngleAxis} from "recharts"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utils
 import colors from "../styles/colors"
@@ -64,6 +65,31 @@ class RadarComponent extends React.Component {
         </RadarChart>
       </ContainerRadar>
     )
+  }
+}
+
+RadarComponent.propTypes = {
+  performance: PropTypes.object
+}
+
+RadarComponent.defaultProps = {
+  performance : {
+    data: [
+      {value: 0, kind: 1},
+      {value: 0, kind: 2},
+      {value: 0, kind: 3},
+      {value: 0, kind: 4},
+      {value: 0, kind: 5},
+      {value: 0, kind: 6}
+    ],
+    kind: {
+      1: "cardio",
+      2: "energy",
+      3: "endurance",
+      4: "strength",
+      5: "speed",
+      6: "intensity"
+    }
   }
 }
 

@@ -1,6 +1,7 @@
 //React
 import React from "react"
 import styled from "styled-components"
+import PropTypes from "prop-types"
 
 //Utils
 import colors from "../styles/colors"
@@ -118,6 +119,21 @@ class KeyData extends React.Component {
         </ContainerRight>
     )
   }
+}
+
+KeyData.propTypes = {
+    user: PropTypes.object
+}
+
+KeyData.defaultProps = {
+    user : {
+      keyData: {
+        calorieCount: NaN,
+        proteinCount: NaN,
+        carbohydrateCount: NaN,
+        lipidCount: NaN
+      }
+    }
 }
 
 export default KeyData

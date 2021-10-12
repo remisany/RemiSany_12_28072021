@@ -35,7 +35,7 @@
 - Create React App.
 - Visual Studio Code.
 
-Projet validé le X août 2021.
+Projet validé le 15 septembre 2021.
 
 ***
 
@@ -46,9 +46,10 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 ### DEPENDENCIES
 
 - [React](https://reactjs.org/) v17.0.2
-- [React-router-dom](https://reactrouter.com/web/guides/quick-start) v17.0.2
+- [React-router-dom](https://reactrouter.com/web/guides/quick-start) v5.2.0
 - [Recharts](https://recharts.org/en-US) v2.0.10
 - [Styled-components](https://styled-components.com/) v5.3.0
+- [Prop-Types](https://www.npmjs.com/package/prop-types) v15.7.2
 
 #### Installation Dependencies
 
